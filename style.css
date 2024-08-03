@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Font'; /* Nome que você vai usar para referenciar a fonte */
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype'); /* Caminho para o arquivo da fonte e formato */
+}
+@font-face {
+    font-family: 'FontB'; /* Nome que você vai usar para referenciar a fonte */
+    src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype'); /* Caminho para o arquivo da fonte e formato */
+}
+body,html {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Font;
+    font-size: 14px;
+}
+main {
+    padding-top: 50px ;
+    display: block;
+    background-color: hsl(0, 0%, 12%);
+    margin: 70px auto auto auto;
+    width: 350px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+h2 {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-size: 16px;
+}
+h3 {
+    color: rgba(255,255,255, 0.7);
+    text-align: center;
+    font-size: 13px;
+}
+img {
+    display: block;
+    margin: auto auto auto auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+label#btn {
+    font-family: FontB;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+display: block;
+width: 300px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+border-radius: 10px;
+background-color:hsl(0, 0%, 20%);
+color: hsl(0, 0%, 100%);
+}
+label#btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 12%)
+}
